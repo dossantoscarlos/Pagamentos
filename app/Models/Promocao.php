@@ -17,8 +17,8 @@ class Promocao extends Model
     protected function casts(): array
     {
         return [
-            'data_inicio' => 'date:d-m-Y',
-            'data_fim' => 'date:d-m-Y',
+            'data_inicio' => 'date:Y-m-d',
+            'data_fim' => 'date:Y-m-d',
         ];
     }
 
